@@ -24,6 +24,7 @@ use App\Http\Controllers\Student\StudentChatController;
 use App\Http\Controllers\Student\StatusController as StudentStatusController;
 use App\Http\Controllers\Student\DepartmentGuideController as StudentDepartmentGuideController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 use App\Http\Controllers\InformationController;
 use App\Http\Controllers\WelcomeController;
