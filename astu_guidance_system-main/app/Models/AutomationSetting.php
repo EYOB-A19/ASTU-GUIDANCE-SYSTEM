@@ -28,5 +28,4 @@ class AutomationSetting extends Model
     protected $attributes = [
         'enabled_tool_groups' => '[]',
     ];
-    protected $table = 'automation_settings';
 }
